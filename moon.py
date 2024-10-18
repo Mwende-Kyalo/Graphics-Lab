@@ -28,7 +28,7 @@ context.set_source_rgb(1, 1, 1)  # white color for the subtracting part
 context.arc(-30, 0, 40, 0, 2 * math.pi)  # Shifted circle to create crescent
 context.fill()
 context.set_line_width(3)
-context.stroke
+context.stroke()
 
 # Restore the context to avoid affecting other drawings
 context.restore()
